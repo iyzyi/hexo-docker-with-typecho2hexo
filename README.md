@@ -39,3 +39,6 @@ typecho: <http://iyzyi.com>
 
 hexo: <http://yuziyang.com.cn>
 
+## 相关笔记
+
+<http://iyzyi.com/index.php/archives/1097/>
