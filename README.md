@@ -35,10 +35,10 @@ docker run \
 
 ## demo
 
-typecho: <http://iyzyi.com>
+typecho: <http://blog.iyzyi.com>
 
-hexo: <http://yuziyang.com.cn>
+hexo: <http://hexo.iyzyi.com>
 
 ## 相关笔记
 
-<http://iyzyi.com/index.php/archives/1097/>
+<http://blog.iyzyi.com/index.php/archives/1097/>
