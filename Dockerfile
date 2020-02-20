@@ -2,7 +2,7 @@ FROM ubuntu
 USER root
 
 ENV LANG C.UTF-8
-ENV DOMAIN=yuziyang.com.cn
+ENV DOMAIN=hexo.iyzyi.com
 ENV ROOTDIR=/blog
 ENV GITHUBUSER=iyzyi
 ENV GITHUBEMAIL=kljxn@qq.com

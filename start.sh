@@ -53,4 +53,9 @@ if [ ! -e "${ROOTDIR}/first_flag" ]; then
     /bin/bash
 else
     echo "${ROOTDIR}/first_flag已存在，start.sh不执行。"
+    
+    # 使得容器执行完start.sh后不会退出
+    # https://stackoverflow.com/questions/42218957/dockerfile-cmd-instruction-will-exit-the-container-just-after-running-it
+    echo "即将进入容器内部，退出请按Ctrl+P+Q"
+    /bin/bash
 fi

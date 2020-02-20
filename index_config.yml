@@ -4,8 +4,8 @@
 
 # Site
 title: 狗儿
-subtitle: '昔我往矣，杨柳依依；今我来思，雨雪霏霏'
-description: 'iyzyi的typecho博客备用静态站点'
+subtitle: '夫天地者，万物之逆旅；光阴者，百代之过客。'
+description: '一生大笑能几回，斗酒相逢须醉倒'
 keywords: iyzyi, ctf, 逆向, pwn, cumt, web, mobile, android, pc, cumtctf, 狗儿, 子安, 佩琪, 胖虎
 author: iyzyi
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yuziyang.com.cn
+url: http://hexo.iyzyi.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
