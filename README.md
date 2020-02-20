@@ -8,13 +8,13 @@
 docker run \
 --name hexo \
 -p 50010:4000 \
--e DOMAIN=yuziyang.com.cn \
+-e DOMAIN=hexo.iyzyi.com \
 -e ROOTDIR=/blog \
 -e GITHUBUSER=iyzyi \
 -e GITHUBEMAIL=kljxn@qq.com \
 -e DB_HOST=0.0.0.0 \
 -e DB_USER=root \
--e DB_PWD=123456 \
+-e DB_PWD=root \
 -e DB_NAME=blog \
 -e DB_PRE=typecho \
 --restart always \
