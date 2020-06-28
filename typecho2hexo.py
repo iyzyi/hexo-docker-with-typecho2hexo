@@ -122,34 +122,3 @@ categories: \n- %s
 
 if __name__ == '__main__':
     r = GO()
-
-
-
-
-'''
-    db_host='47.101.215.199'
-    db_user='root'
-    db_pwd='DdhjX520'
-    db_name='blog'
-    db_pre='typecho'
-    post_dir=r'D:\计算机\VMware\blog\source\_posts'
-
-    db = GO(db_host, db_user, db_pwd, db_name, db_pre, post_dir)
-'''
-
-    
-'''
-def token(path):
-    # path: 资源包内的相对路径，比如根目录下的1.png，其path为1.png.
-
-    #pip install oss2
-    import oss2
-
-    # 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
-    auth = oss2.Auth('LTAI4FbgsLohYuFfxyQEUVkr', 'qQpKNEOWaX40BdVh1eJjNvIZWn6HwL')
-    # Endpoint以杭州为例，其它Region请按实际情况填写。
-    bucket = oss2.Bucket(auth, 'http://oss-cn-shanghai.aliyuncs.com', 'iyzyi-oss')
-    # 设置此签名URL在60秒内有效。
-    print(bucket.sign_url('GET', path, 900))
-token('img/uploads/2019/10/1011733578.png')
-'''
